@@ -15,15 +15,25 @@
     background-color: #6e7a5b;
     height: 100%;
     width: 69%;
-    position: relative; }
+    position: relative;
+    text-align: center; }
+    .container .left p {
+      padding: 250px 0;
+      width: 50%;
+      margin: auto; }
   .container .right {
     background-color: #a6ad80;
     height: 100%;
     position: relative;
-    width: 29%; }
+    width: 29%;
+    text-align: center; }
+    .container .right p {
+      padding: 250px 0;
+      width: 50%;
+      margin: auto; }
     .container .right .button {
       background-color: #dcf829;
-      color: #fff;
+      color: gray;
       border: 0;
       border-radius: 10px;
       cursor: pointer;
